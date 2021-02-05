@@ -389,8 +389,10 @@ body {
   color: var(--accent-color);
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-item .mail:hover,
+.contacts-item .mail:focus,
+.contacts-item .tel:hover,
+.contacts-item .tel:focus {
   color: var(--accent-color);
 }
 
@@ -407,15 +409,17 @@ body {
   line-height: 24px;
 
   color: var(--font-color-white);
-
-  margin-top: 45px;
 }
 
 .footer-address .mail,
 .footer-address .tel {
-  display: flex;
-  align-items: left;
-
   color: var(--transparent-links);
   margin-top: 8px;
+}
+
+.footer-address .mail:hover,
+.footer-address .mail:focus,
+.footer-address .tel:hover,
+.footer-address .tel:focus {
+  color: var(--accent-color);
 }
