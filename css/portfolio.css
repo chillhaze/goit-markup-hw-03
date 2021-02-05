@@ -1,0 +1,62 @@
+/* ----Filter buttons list---- */
+
+.filter.btn {
+  outline: none;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: var(--font-color-main);
+  background-color: var(--bg-color-secondary);
+  border-radius: 4px;
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus {
+  color: var(--font-color-white);
+
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/* ----Projects list---- */
+/* uncomment for better view */
+.portfolio-list {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* check how to do half border */
+.portfolio-item {
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+.portfolio-item-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: var(--font-color-main);
+}
+
+.portfolio-item-subtitle {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: var(--font-color-secondary);
+}

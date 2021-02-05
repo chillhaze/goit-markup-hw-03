@@ -1,0 +1,124 @@
+/* -----Welcome styles----- */
+
+.welcome {
+  text-align: center;
+
+  background-color: var(--bg-color-dark);
+
+  padding: 200px 0;
+}
+
+.welcome-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--font-color-white);
+}
+
+.order-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--font-color-white);
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 4px 4px var(--btn-boxshadow-color);
+  border-radius: 4px;
+
+  padding: 15px 30px;
+}
+
+/* -----Advantages styles----- */
+
+/* uncomment for better view */
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 0 90px;
+}
+
+.advantages-item {
+  max-width: 275px;
+  padding: 0 10px;
+}
+
+.advantages-item-title {
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  text-align: left;
+}
+
+.advantages-item-text {
+  color: var(--font-color-secondary);
+}
+
+/* -----Visuals styles----- */
+
+.visuals-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  text-align: center;
+}
+
+/* uncomment for better view */
+.visuals-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 90px;
+}
+
+/* -----Team styles----- */
+
+.team {
+  background-color: var(--bg-color-secondary);
+
+  padding: 90px 0;
+}
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  text-align: center;
+}
+
+/* uncomment for better view */
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-mate {
+  text-align: center;
+
+  background-color: var(--bg-color-main);
+
+  box-shadow: var(--team-mate-box-shadow);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-mate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-mate-position {
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--font-color-secondary);
+}
