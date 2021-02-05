@@ -30,12 +30,12 @@
 
 /* ----Projects list---- */
 /* uncomment for better view */
-.portfolio-list {
+/* .portfolio-list {
   max-width: 1170px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 
 /* check how to do half border */
 .portfolio-item {

@@ -39,11 +39,11 @@
 /* -----Advantages styles----- */
 
 /* uncomment for better view */
-.advantages-list {
+/* .advantages-list {
   display: flex;
   justify-content: space-between;
   margin: 90px 0 90px;
-}
+} */
 
 .advantages-item {
   max-width: 275px;
@@ -73,11 +73,11 @@
 }
 
 /* uncomment for better view */
-.visuals-list {
+/* .visuals-list {
   display: flex;
   justify-content: space-between;
   margin: 50px 0 90px;
-}
+} */
 
 /* -----Team styles----- */
 
@@ -96,10 +96,10 @@
 }
 
 /* uncomment for better view */
-.team-list {
+/* .team-list {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .team-mate {
   text-align: center;
