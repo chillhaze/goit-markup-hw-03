@@ -7,7 +7,7 @@
 .btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 
   text-align: center;
 
@@ -44,9 +44,9 @@
 }
 
 .portfolio-item-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 
   letter-spacing: 0.06em;
 
@@ -54,9 +54,24 @@
 }
 
 .portfolio-item-subtitle {
-  font-family: Roboto, sans-serif;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 
   color: var(--font-color-secondary);
 }
+
+/* ---------Addressed to mentor---------
+
+Alona Harnyk
+
+https://prnt.sc/yiqpwc цвет не соответствует макету----------спасибо, пофиксил, не заметил разницы у себя на мониторе и пропустил этот момент.
+
+https://prnt.sc/yiqvvv опечатка, Raleway----------спасибо, пофиксил
+
+Обїединять нормализацию стилей и ваш код в одном файле не следует.----------пофиксил, подключил madern-normalize отдельно.
+
+Жирность везде задавайте в цифрах, придерживайтесь единого подхода. -------пофиксил, на макете, во вкладке css указывает настройки css по-разному, где в цифрах, где словами.
+
+Вісоту строку оптимальнее задавать в виде множителя.----------пофиксил, используя пример из конспекта (line-hrght:_px делил на font-size:_px), но там какие-то странные значения в lline-height получаются (типа 1.87, 1.62, 1.16, 1.71, 1.14 и тд) ------ вопрос: ЭТО нормально?
+
+https://prnt.sc/yirlzu зачем? ------- это последствия моих экспериментов, убрал */
