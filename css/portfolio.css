@@ -48,7 +48,7 @@
 
 .btn {
   padding: 6px 22px;
-  border: 0px solid #fff;
+  border: 0px solid transparent;
 }
 
 /* ----Projects list---- */
