@@ -11,12 +11,14 @@
 .welcome-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.16;
+  line-height: 1.36;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--font-color-white);
+
+  margin: 0 0 40px;
 }
 
 .order-btn {
@@ -33,21 +35,19 @@
   box-shadow: 0px 4px 4px var(--btn-boxshadow-color);
   border-radius: 4px;
 
-  padding: 15px 30px;
+  padding: 15px 32px;
 }
 
 /* -----Advantages styles----- */
 
-/* uncomment for better view */
-/* .advantages-list {
+.advantages-list {
   display: flex;
   justify-content: space-between;
-  margin: 90px 0 90px;
-} */
+  margin: 90px 0;
+}
 
 .advantages-item {
-  max-width: 275px;
-  padding: 0 10px;
+  max-width: 270px;
 }
 
 .advantages-item-title {
@@ -59,6 +59,8 @@
 }
 
 .advantages-item-text {
+  margin-top: 10px;
+
   color: var(--font-color-secondary);
 }
 
@@ -72,12 +74,11 @@
   text-align: center;
 }
 
-/* uncomment for better view */
-/* .visuals-list {
+.visuals-list {
   display: flex;
   justify-content: space-between;
   margin: 50px 0 90px;
-} */
+}
 
 /* -----Team styles----- */
 
@@ -95,11 +96,12 @@
   text-align: center;
 }
 
-/* uncomment for better view */
-/* .team-list {
+.team-list {
+  margin-top: 50px;
+
   display: flex;
   justify-content: space-between;
-} */
+}
 
 .team-mate {
   text-align: center;
@@ -113,9 +115,12 @@
 }
 
 .team-mate-name {
+  margin-top: 30px;
+
   font-weight: 500;
 }
 
 .team-mate-position {
+  margin: 10px 0 30px;
   color: var(--font-color-secondary);
 }

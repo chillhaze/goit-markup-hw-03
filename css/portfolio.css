@@ -26,21 +26,60 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+
+  outline: none;
+}
+
+/* ----Portfolio---- */
+.portfolio {
+  padding: 94px 0 64px;
+}
+
+/* ----Filter---- */
+
+.filter {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.filter-item {
+  padding: 0px 4px;
+}
+
+.btn {
+  padding: 6px 22px;
+  border: 0px solid #fff;
 }
 
 /* ----Projects list---- */
-/* uncomment for better view */
-/* .portfolio-list {
-  max-width: 1170px;
+
+.portfolio-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-} */
+}
 
 /* check how to do half border */
 .portfolio-item {
+  margin-bottom: 30px;
+
   text-align: left;
+}
+
+.item-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-image.no-gap {
+  display: block;
+}
+
+.text-wrapper {
+  padding: 20px 24px;
   border: 1px solid var(--border-color);
+  border-top: none;
 }
 
 .portfolio-item-title {
@@ -59,19 +98,3 @@
 
   color: var(--font-color-secondary);
 }
-
-/* ---------Addressed to mentor---------
-
-Alona Harnyk
-
-https://prnt.sc/yiqpwc цвет не соответствует макету----------спасибо, пофиксил, не заметил разницы у себя на мониторе и пропустил этот момент.
-
-https://prnt.sc/yiqvvv опечатка, Raleway----------спасибо, пофиксил
-
-Обїединять нормализацию стилей и ваш код в одном файле не следует.----------пофиксил, подключил madern-normalize через cdn.
-
-Жирность везде задавайте в цифрах, придерживайтесь единого подхода. -------пофиксил, на макете, во вкладке css указывает настройки css по-разному, где в цифрах, где словами.
-
-Вісоту строку оптимальнее задавать в виде множителя.----------пофиксил, используя пример из конспекта (line-hrght:_px делил на font-size:_px), но там какие-то странные значения в lline-height получаются (типа 1.87, 1.62, 1.16, 1.71, 1.14 и тд) ------ вопрос: ЭТО нормально?
-
-https://prnt.sc/yirlzu зачем? ------- это последствия моих экспериментов, убрал */
