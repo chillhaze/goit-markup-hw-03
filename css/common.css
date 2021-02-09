@@ -27,7 +27,6 @@ p {
 }
 
 /* -----Variables----- */
-
 :root {
   --bg-color-main: #fff;
   --bg-color-secondary: #f5f4fa;
@@ -56,7 +55,6 @@ body {
 }
 
 /* -----Container----- */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -64,7 +62,6 @@ body {
 }
 
 /* -----Logo----- */
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -97,7 +94,6 @@ body {
 }
 
 /* -----Header styles----- */
-
 .page-header {
   font-weight: 500;
   font-size: 14px;

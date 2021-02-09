@@ -1,5 +1,4 @@
 /* -----Welcome styles----- */
-
 .welcome {
   text-align: center;
 
@@ -39,7 +38,6 @@
 }
 
 /* -----Advantages styles----- */
-
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -65,7 +63,6 @@
 }
 
 /* -----Visuals styles----- */
-
 .visuals-title {
   font-weight: 700;
   font-size: 36px;
@@ -81,7 +78,6 @@
 }
 
 /* -----Team styles----- */
-
 .team {
   background-color: var(--bg-color-secondary);
 

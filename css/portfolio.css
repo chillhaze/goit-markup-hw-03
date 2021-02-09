@@ -1,5 +1,4 @@
 /* ----Filter buttons list---- */
-
 .filter.btn {
   outline: none;
 }
@@ -36,7 +35,6 @@
 }
 
 /* ----Filter---- */
-
 .filter {
   display: flex;
   justify-content: center;
@@ -52,7 +50,6 @@
 }
 
 /* ----Projects list---- */
-
 .portfolio-list {
   display: flex;
   justify-content: space-between;
