@@ -26,6 +26,14 @@ p {
   margin-block-end: 0;
 }
 
+/* ------ Правка 6 - тегуimg задайте свойство display: block.  */
+/* ------ Готово.   */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* -----Variables----- */
 :root {
   --bg-color-main: #fff;
@@ -41,6 +49,7 @@ p {
   --team-mate-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --transparent-links: rgba(255, 255, 255, 0.6);
+  --item-set-gap: 30px;
 }
 
 body {
@@ -95,35 +104,42 @@ body {
 
 /* -----Header styles----- */
 .page-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-
   border-bottom: 1px solid var(--border-color);
-
-  padding: 25px 0;
 }
 
-/* ------ Правка 1 - Сделал, как показывал Репета на уроке  */
+/* ------ Правка 1 - в этом диве нет необходимсти, не перегружайте разметку */
+/* ------ Удалил лишний div. Сделал, как показывал Репета на уроке.   */
 .page-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* ------ Правка 2 - Ссылкам в хедере задайте вертикальные паддинги, чтобы увеличить активную область.  */
+/* ------ Задал.   */
+.page-header a {
+  padding: 32px 0;
+}
+
 .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 93px;
 }
 
-.nav-item {
+/* ------ Правка 3 - правильным решением будет обнулить у первого ли левый марджин, и увеличить левый марджин списка.  */
+/* ------ Готово.   */
+.nav-item:not(:first-child) {
   margin-left: 50px;
 }
 
@@ -131,8 +147,6 @@ body {
   color: var(--font-color-secondary);
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .contacts-item:nth-child(2) {
