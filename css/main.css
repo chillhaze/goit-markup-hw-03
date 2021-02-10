@@ -92,6 +92,7 @@
   margin-top: 50px;
   margin-left: calc(-1 * var(--item-set-gap));
 }
+
 .visuals-item {
   flex-basis: calc(100% / 3 - var(--item-set-gap));
   margin-left: var(--item-set-gap);
